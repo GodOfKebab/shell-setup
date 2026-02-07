@@ -9,5 +9,4 @@ curl -O https://raw.githubusercontent.com/GodOfKebab/shell-setup/refs/heads/main
 echo '[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh' >> "$HOME/.zshrc"
 
 sudo chsh -s "$(which zsh)"
-zsh
 
