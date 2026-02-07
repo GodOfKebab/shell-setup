@@ -8,5 +8,5 @@ sed -i.bak 's/^ZSH_THEME=.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/.zshrc
 curl -O https://raw.githubusercontent.com/GodOfKebab/shell-setup/refs/heads/main/.p10k.zsh
 echo '[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh' >> "$HOME/.zshrc"
 
-sudo chsh -s "$(which zsh)"
+sudo chsh -s "$(which zsh)" "$USER"
 
